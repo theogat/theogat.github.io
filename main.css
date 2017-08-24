@@ -4,10 +4,13 @@
     text-decoration: none;
     list-style: none;
 }
-body {
-    background-image: url('./pictures/test1.jpg');
+html {
+    background: url('./pictures/test1.jpg') no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     	
 }
 .main {
