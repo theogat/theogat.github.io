@@ -29,7 +29,7 @@ $(document).ready(function(){
     $('img').hide();
     $('p').css('margin-left', '0px');
     $('h3').html('About Me');
-    $('p').html('Geospatial C.V.')
+    $('p').html('<a href="./Geospatial_CV_en.html">Geospatial C.V.</a>')
   });;
 $('#software').click(function(){
     $('.main').fadeIn('slow');
