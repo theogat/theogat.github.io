@@ -98,6 +98,21 @@ img {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
+#el_flag {
+    width: 2.5em;
+    position: absolute;
+    bottom: 5px;
+    left: 30%;
+    right: 30%;
+}
+#us_flag {
+    width: 2.5em;
+    position: absolute;
+    bottom: 5px;
+    left: 45%;
+    right: 45%
+}
 .clicked {
 
 }
