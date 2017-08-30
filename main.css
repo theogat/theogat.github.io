@@ -102,16 +102,40 @@ img {
 #el_flag {
     width: 2.5em;
     position: absolute;
-    bottom: 5px;
+    bottom: 35px;
     left: 30%;
     right: 30%;
 }
 #us_flag {
     width: 2.5em;
     position: absolute;
-    bottom: 5px;
+    bottom: 35px;
     left: 45%;
     right: 45%
+}
+.copy-left { 
+    
+    display: inline-block;  
+    text-align: right;
+    margin: 0px; 
+    -moz-transform: scaleX(-1); 
+    -o-transform: scaleX(-1); 
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1); 
+    filter: FlipH; 
+    -ms-filter: “FlipH”; 
+}
+#copyleft {
+    border-top: solid 1px #D8D8D8;
+    padding: 4px;
+    color: white;
+    position: absolute;
+    bottom: 2px;
+    font-size: 12px;
+    width: 190px;
+    font-family: Palatino;
+    margin-left: 25px;
+
 }
 .clicked {
 
