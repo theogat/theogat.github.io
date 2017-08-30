@@ -63,7 +63,7 @@ $(document).ready(function(){
     }
     else if (language == 'el') {
       $('h3').html('Σχετικά με Εμένα');
-      $('p').html('<a href="./Geospatial_CV_en.html">Γεωχωρικό Βιογραφικό Σημείωμα.</a>');
+      $('p').html('<a href="./Geospatial_CV_el.html">Γεωχωρικό Βιογραφικό Σημείωμα.</a>');
     }
   });
 
