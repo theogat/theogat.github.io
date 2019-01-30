@@ -5,7 +5,7 @@
     list-style: none;
 }
 html {
-    background: url('./pictures/test1.jpg') no-repeat center center fixed;
+    background: url('./pictures/background.jpg') no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
