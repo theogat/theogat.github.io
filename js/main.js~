@@ -1,3 +1,23 @@
+    /*    
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) 2017 Theodoros Gatsios
+
+        The JavaScript code in this page is free software: you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+        */
 $(document).ready(function(){
   var language = 'us';
   $('body').hide();
@@ -29,9 +49,6 @@ $(document).ready(function(){
     else if (language == 'el'){
       $('h3').html('Στοιχεία Επικοινωνίας');
     }
-    else {
-      alert('error');
-    }
     $('p').html('e-mail:  <a href="mailto:theogat-27@protonmail.com">theogat-27@protonmail.com</a><br /><br />XMPP (Jabber):  <a href="xmpp:theogat@jabber.to">theogat@jabber.to</a><br /><br />diaspora*:  theogat@joindiaspora.com');
   //  $('p').css('padding', '100px');
   });
@@ -61,14 +78,14 @@ $(document).ready(function(){
     if (language == 'us') {
       $('h3').html('Software');
       $('h5').html('Birthday Elephant');
-      $('p').css('font-size', '15px');
-      $('p').html('A simple program that integrates with an sqlite3 database and reminds you, your friends\' birthdays. The program comes with an sqlite3 editor (Birthday Editor).')
+      $('p').css('font-size', '');
+      $('p').html('A simple program that integrates with an sqlite3 database and reminds you, your friends\' birthdays. The program comes with an sqlite3 editor (Birthday Editor).<br>License: <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a><br><a href="https://github.com/theogat/theogat.github.io/raw/master/repo/birthdayElephant/birthday-elephant-1.0.1.deb"><font color="red">GNU/Linux (deb)</font></a>&emsp;<a href="https://github.com/theogat/Birthday-Elephant"><font color="red">Source Code</font></a>')
     }
     else if (language == 'el') {
       $('h3').html('Προγράμματα');
       $('h5').html('Birthday Elephant');
       $('p').css('font-size', '15px');
-      $('p').html('Ένα απλό πρόγραμμα, που σας θυμίζει τα γενέθλια των φίλων σας, με την βοήθεια μιας βάσης δεδομένων SQLite3.  Το πρόγραμμα συνοδεύεται κι από έναν επεξεργαστή της SQLite3 βάσης (Birthday Editor).')      
+      $('p').html('Ένα απλό πρόγραμμα, που σας θυμίζει τα γενέθλια των φίλων σας, με την βοήθεια μιας βάσης δεδομένων SQLite3.  Το πρόγραμμα συνοδεύεται κι από έναν επεξεργαστή της SQLite3 βάσης (Birthday Editor).<br>Άδεια: <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a><br><a href="https://github.com/theogat/theogat.github.io/raw/master/repo/birthdayElephant/birthday-elephant-1.0.1.deb"><font color="red">GNU/Linux (deb)</font></a>&emsp;<a href="https://github.com/theogat/Birthday-Elephant"><font color="red">Πηγαίος Κώδικας</font></a>')      
     }
     $('img').html('<img src="./pictures/software/BEl.png" />');
     $('p').css('margin-left', '50px');
@@ -96,7 +113,7 @@ $(document).ready(function(){
 
   $('#el_flag').click(function(){
     language = 'el';
-    document.getElementById('name').innerHTML = 'Θεόδωρος <span class="logo_bold">Γάτσιος</span>';
+    document.getElementById('name').innerHTML = 'ΘΕΟΔΩΡΟΣ <span class="logo_bold">ΓΑΤΣΙΟΣ</span>';
     $('#name').css('font-size', '18px');
     document.getElementById('prof').innerHTML = 'Γεωλόγος';
     document.getElementById('home').innerHTML = 'Αρχική Σελίδα';
