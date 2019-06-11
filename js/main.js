@@ -47,7 +47,7 @@ $(document).ready(function(){
     else if (language == 'el'){
       $('h3').html('Στοιχεία Επικοινωνίας');
     }
-    $('p').html('e-mail:  <a href="mailto:theogat-27@protonmail.com">theogat-27@protonmail.com</a><br /><br />XMPP (Jabber):  <a href="xmpp:theogat@jabber.to">theogat@jabber.to</a><br /><br />diaspora*:  theogat@joindiaspora.com');
+    $('p').html('e-mail:  <a href="mailto:theogat-27@protonmail.com">theogat-27@protonmail.com</a><br /><br />XMPP (Jabber):  <a href="xmpp:theogat@jabber.to">theogat@jabber.cat</a><br /><br />diaspora*:  theogat@joindiaspora.com');
   //  $('p').css('padding', '100px');
   });
 
@@ -59,11 +59,11 @@ $(document).ready(function(){
     $('p').css('margin-left', '0px');
     if (language == 'us') {
       $('h3').html('About Me');
-      $('p').html('<a href="./Geospatial_CV_en.html">Geospatial C.V.</a>');
+      $('p').html('<a href="./Geospatial_CV_en.html">Geospatial C.V.</a><br /><br /><a href="./game/index.html">Arcade Game C.V.</a>');
     }
     else if (language == 'el') {
       $('h3').html('Σχετικά με Εμένα');
-      $('p').html('<a href="./Geospatial_CV_el.html">Γεωχωρικό Βιογραφικό Σημείωμα.</a>');
+      $('p').html('<a href="./Geospatial_CV_el.html">Γεωχωρικό Βιογραφικό Σημείωμα.</a><br /><br /><a href="./game/index.html">Βιογραφικό Σημείωμα σε μορφή ηλ. παιχνιδιού.</a>');
     }
   });
 
@@ -112,7 +112,7 @@ $(document).ready(function(){
   $('#el_flag').click(function(){
     language = 'el';
     document.getElementById('name').innerHTML = 'ΘΕΟΔΩΡΟΣ <span class="logo_bold">ΓΑΤΣΙΟΣ</span>';
-    $('#name').css('font-size', '18px');
+    $('#name').css('font-size', '22px');
     document.getElementById('prof').innerHTML = 'Γεωλόγος';
     document.getElementById('home').innerHTML = 'Αρχική Σελίδα';
     document.getElementById('aboutMe').innerHTML = 'Σχετικά με Εμένα';
